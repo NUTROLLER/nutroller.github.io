@@ -1,3 +1,70 @@
-p{
-    color:violet;
+*{
+    margin: 0;
+    padding: 0;
 }
+@keyframes button-hover{
+    from{font-size:40px; background-color:rgb(0, 126, 252);}
+    to{font-size: 50px; background-color:rgb(112, 0, 204) ;}
+}
+@font-face {
+    font-family: FranklinGothic;
+    src: url(/fonts/franklin-gothic-condensed.ttf);
+}
+body{
+    background-image: linear-gradient(to right top,orange 33.33%,rgb(255, 0, 0), rgb(163, 1, 1) ); 
+    background-attachment: fixed;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+h1.heading{
+    margin: 5px 0px 5px 0px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+   font-family: 'FranklinGothic', 'Sans-Serif';
+   letter-spacing: 1.5px;
+   /* background-image: linear-gradient(to right top,orange 33.33%,rgb(255, 0, 0), rgb(163, 1, 1) ); */
+   padding-top: 15px;
+   padding-bottom: 25px;
+   line-height: 70px;
+}
+.logo-top{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+.socials{
+    font-size:large;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.link:visited{
+    color:rgb(56, 56, 56);
+}
+.link:hover{
+    color:rgb(255, 255, 255);
+}
+ 
+button.quirky:hover,:visited{
+    animation-name: button-hover;
+    animation-duration: 2s;
+    font-family: FranklinGothic, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(112, 0, 204);
+    color:white;
+    padding: 5px;
+}
+button.quirky{
+    text-decoration: none;
+    font-size:40px;
+    font-family: FranklinGothic;
+    background-color:rgb(0, 126, 252);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    }   
