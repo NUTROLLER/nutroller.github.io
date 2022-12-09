@@ -7,12 +7,22 @@
     to{font-size: 50px; background-color:rgb(112, 0, 204) ;}
 }
 @font-face {
+    font-family: architex;
+    src: url(fonts/Architex.ttf);
+}
+@font-face {
+    font-family: affectionately-yours;
+    src: url(fonts/affectionately-yours.ttf);
+}
+@font-face {
     font-family: FranklinGothic;
     src: url(/fonts/franklin-gothic-condensed.ttf);
 }
 body{
-    background-image: linear-gradient(to right top,orange 33.33%,rgb(255, 0, 0), rgb(163, 1, 1) ); 
+    background-image: linear-gradient(to right top,#C33764,#1D2671);
     background-attachment: fixed;
+    /* background-image: linear-gradient(to right top,#D4145A, #FBB03B); */
+    /* background-image: linear-gradient(to right top,orange 33.33%,rgb(255, 0, 0), rgb(163, 1, 1) );  */
 }
 p{
     color:rgb(255, 255, 255);
@@ -36,6 +46,8 @@ h1.heading{
     width: 50px;
     border: 5px solid white;
     border-radius: 100%;
+    border-width: 3px;
+    border-spacing: 0px;
 }
 .socials{
     font-size:large;
@@ -68,3 +80,68 @@ button.quirky{
     padding: 5px;
     color: rgb(255, 255, 255);
     }   
+#hello{
+    font-family: affectionately-yours, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+h4.para{
+    font-family: architex, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+#linkyoutube:hover {
+    
+    color: rgb(255, 0, 0);
+}
+.checkout{
+    background-color: #FBB03B;
+    opacity: 50;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-size: 27px;
+    color: beige;
+    font-family: architex, sans-serif;
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    text-shadow: 1px 1px #c17700;
+}
+#gratitude{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+}
+#button{
+    color: white;
+    font-family: architex;
+   font-size: 15px;
+   padding: 5px;
+   background-color: rgb(255, 0, 0); 
+   border: none;
+   font-weight: bolder;
+}
+#button:hover{
+    color: white;
+    background-color: rgb(250, 54, 54)
+}
+#btntwo{
+    display: block;
+  margin: auto;
+    color: white;
+    background-color:rgb(112, 0, 204);
+    padding: 5px;
+    font-family: architex, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#btntwo:hover{
+ color:white;
+ background-color: rgb(132, 23, 222)
+}
