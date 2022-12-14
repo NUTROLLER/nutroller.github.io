@@ -1,0 +1,195 @@
+body{
+    overflow: hidden;
+}
+ul{
+    margin: 0 auto;
+    list-style-type: none;
+    background-image: linear-gradient(to right, black 70%, rgba(255, 255, 255, 0));
+    text-align: left;
+    padding: 12px 12px 14px 12px;
+    overflow: hidden;
+    vertical-align: middle;
+    border-bottom: 1px solid white;
+}
+li{
+    display: inline;
+    color:white;
+    /* background-color: black; */
+    background-color: black;
+    text-align: center;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+h1.heading{
+    margin: 5px 0px 5px 0px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+   font-family: 'FranklinGothic', 'Sans-Serif';
+   letter-spacing: 1.5px;
+   /* background-image: linear-gradient(to right top,orange 33.33%,rgb(255, 0, 0), rgb(163, 1, 1) ); */
+   padding-top: 15px;
+   padding-bottom: 25px;
+   line-height: 70px;
+}
+.logo-top{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border: 5px solid white;
+    border-radius: 100%;
+    border-width: 3px;
+    border-spacing: 0px;
+}
+.socials{
+    font-size:large;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.link:visited{
+    color:rgb(56, 56, 56);
+}
+.link:hover{
+    color:rgb(255, 255, 255);
+}
+ 
+button.quirky:hover,:visited{
+    animation-name: button-hover;
+    animation-duration: 2s;
+    font-family: FranklinGothic, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(112, 0, 204);
+    color:white;
+    padding: 5px;
+}
+button.quirky{
+    text-decoration: none;
+    font-size:40px;
+    font-family: FranklinGothic;
+    background-color:rgb(0, 126, 252);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    }   
+#hello{
+    font-family: affectionately-yours, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+h4.para{
+    font-family: architex, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+#linkyoutube:hover {
+    
+    color: rgb(255, 0, 0);
+}
+.checkout{
+    background-color: #FBB03B;
+    opacity: 50;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-size: 27px;
+    color: beige;
+    font-family: architex, sans-serif;
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    text-shadow: 1px 1px #c17700;
+}
+#gratitude{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+}
+#button{
+    color: white;
+    font-family: architex;
+   font-size: 15px;
+   padding: 5px;
+   background-color: rgb(255, 0, 0); 
+   border: none;
+   font-weight: bolder;
+}
+#button:hover{
+    color: white;
+    background-color: rgb(250, 54, 54)
+}
+#btntwo{
+    display: block;
+  margin: auto;
+    color: white;
+    background-color:rgb(112, 0, 204);
+    padding: 5px;
+    font-family: architex, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#btntwo:hover{
+ color:white;
+ background-color: rgb(132, 23, 222)
+}
+p.copyright {
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+li a{
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+    font-family: Roboto, 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+.blackbg{
+    text-align:center;
+    background-image: linear-gradient(to right, black 70%, rgba(255, 255, 255, 0))
+}
+.blackbg h1{
+    padding: 30px;
+    font-size: 75px;
+    font-family: Lato, sans-serif;
+    color:white;
+    text-decoration: underline white;
+}
+.blackbg p{
+    color:white;
+    font-family: lato ,sans-serif;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.downarrow{
+    padding-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+
+}
+#socials-listed ul li a{
+    display: inline;
+    bottom: 5px;
+    font-size: 40px;
+    padding:20px;
+    overflow: hidden;
+}
+#socials-listed ul li a:hover{
+    background-color: rgb(111, 111, 111);
+}
